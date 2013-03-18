@@ -11,12 +11,12 @@ $ npm install gtrs -g
 
 usage
 ====
+
+en -> zh
 ```
 $ gtrs program
 ```
 
-output
-=====
 ```
 program: 程序 Chéngxù
 
@@ -33,4 +33,24 @@ program: 程序 Chéngxù
 
 动词: 编程
 编程: program
+```
+
+zh -> en
+```
+$ gtrs 程序
+```
+
+```
+程序: Program
+
+名词: program,procedure,sequence,order,course
+program: 程序,方案,计划,节目,规划,日程
+procedure: 程序,过程,步骤,手续,规程
+sequence: 序列,顺序,序,次序,程序,排序
+order: 顺序,命令,秩序,令,次序,程序
+course: 课程,过程,进程,历程,期间,程序
+
+形容词: procedural,programmed
+procedural: 程序
+programmed: 程序
 ```
