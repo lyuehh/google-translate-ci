@@ -74,7 +74,7 @@ $ gtrg word
 ```
 
 ### say
-Mac os X also has a tool call `say`, you can use it just like this:
+Mac os X also has a tool called `say`, you can use it just like this:
 ```
 $ say word
 ```
