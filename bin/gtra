@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ $# -eq 0 ];
+then
+  echo 'Usage: gtra word'
+  exit 1
+fi
+
+allwords='/Users/weiwei/file/allwords/'
+
+cd $allwords
+find . | grep "\/$1\." | xargs -I {} afplay {}
+
