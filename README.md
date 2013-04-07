@@ -1,7 +1,7 @@
 google-translate-ci
 ===================
 
-Google Translate command line tool.
+Google Translate command line tool, and can speak the word out also.
 
 install
 ======
@@ -11,6 +11,8 @@ $ npm install gtrs -g
 
 usage
 ====
+
+### gtrs
 
 en -> zh
 ```
@@ -54,3 +56,28 @@ course: 课程,过程,进程,历程,期间,程序
 procedural: 程序
 programmed: 程序
 ```
+
+### gtra
+First, goto <http://www.verycd.com/topics/89350/> download the voice package, and then compress them to `~/file/alllwords`,
+and then you can use like this:
+```
+$ gtra word
+```
+then the computer will speak the word out.
+
+### gtrg
+`gtrg` likes `gtra`, but it download the audio files from google, and save it to `/tmp/a`, and then speak it out, because
+many new words are not in the package before.
+To use it, type
+```
+$ gtrg word
+```
+
+### say
+Mac os X also has a tool call `say`, you can use it just like this:
+```
+$ say word
+```
+but this is not real voice, it was mixed by computer, but if you don't like the tools above, then you can use this instead.
+
+# That's all, enjoy learning english~~

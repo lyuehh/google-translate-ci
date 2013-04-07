@@ -1,6 +1,6 @@
 {
   "name": "gtrs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/lyuehh/google-translate-ci",
   "description": "Google Translate command line tool",
   "author": {
@@ -10,7 +10,8 @@
   },
   "bin": {
     "gtrs": "./bin/gtrs",
-    "gtra": "./bin/gtra"
+    "gtra": "./bin/gtra",
+    "gtrg": "./bin/gtrg"
   },
   "main": "./lib/gtrs.js",
   "dependencies": {
