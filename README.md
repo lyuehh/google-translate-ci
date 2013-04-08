@@ -1,7 +1,7 @@
 google-translate-ci
 ===================
 
-Google Translate command line tool, and can speak the word out also.
+Google Translate command line tool, and can speak the word out also(only work on Mac now).
 
 install
 ======
