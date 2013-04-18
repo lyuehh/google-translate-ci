@@ -57,14 +57,6 @@ procedural: 程序
 programmed: 程序
 ```
 
-### gtra
-First, goto <http://www.verycd.com/topics/89350/> download the voice package, and then compress them to `~/file/alllwords`,
-and then you can use like this:
-```
-$ gtra word
-```
-then the computer will speak the word out.
-
 ### gtrg
 `gtrg` likes `gtra`, but it download the audio files from google, and save it to `/tmp/a`, and then speak it out, because
 many new words are not in the package before.
