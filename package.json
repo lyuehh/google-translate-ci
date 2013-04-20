@@ -10,7 +10,6 @@
   },
   "bin": {
     "gtrs": "./bin/gtrs",
-    "gtra": "./bin/gtra",
     "gtrg": "./bin/gtrg"
   },
   "repository": "https://github.com/lyuehh/google-translate-ci",
