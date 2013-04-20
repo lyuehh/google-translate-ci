@@ -58,9 +58,8 @@ programmed: 程序
 ```
 
 ### gtrg
-`gtrg` likes `gtra`, but it download the audio files from google, and save it to `/tmp/a`, and then speak it out, because
-many new words are not in the package before.
-To use it, type
+`gtrg` download the audio files from google, and save it to `/tmp/a`, and then speak it out.
+To use it, type:
 ```
 $ gtrg word
 ```
@@ -71,5 +70,16 @@ Mac os X also has a tool called `say`, you can use it just like this:
 $ say word
 ```
 but this is not real voice, it was mixed by computer, but if you don't like the tools above, then you can use this instead.
+
+### better use
+Add this to your `.bashrc` or `.zshrc` file:
+```
+function gtrs()
+{
+  env gtrs $1;
+  gtrg $1;
+}
+```
+Then when you type `gtrs something`, you can first see the translation, and then can hear the pronunciation of the words.
 
 # That's all, enjoy learning english~~
