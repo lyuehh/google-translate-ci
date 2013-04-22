@@ -6,5 +6,11 @@ then
   exit 1
 fi
 
-curl -A "Mozilla/5.0" -s -o "/tmp/a" "http://translate.google.cn/translate_tts?ie=UTF-8&q=$1&tl=en&total=1&idx=0&textlen=5&prev=input"
-afplay /tmp/a
+mkdir ~/.gwords 2>/dev/null
+if [ -e ~/.gwords/$1.mp3 ];then
+  afplay ~/.gwords/$1.mp3
+else
+  curl -A "Mozilla/5.0" -s -o ~/.gwords/$1.mp3 "http://translate.google.cn/translate_tts?ie=UTF-8&q=$1&tl=en&total=1&idx=0&textlen=5&prev=input"
+  afplay ~/.gwords/$1.mp3
+fi
+

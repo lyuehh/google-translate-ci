@@ -9,6 +9,11 @@ install
 $ npm install gtrs -g
 ```
 
+changelog
+=========
+
+* 0.0.8 add cache for audio files, in ~/.gwords, as mp3 format
+
 usage
 ====
 
