@@ -79,12 +79,12 @@ but this is not real voice, it was mixed by computer, but if you don't like the 
 ### better use
 Add this to your `.bashrc` or `.zshrc` file:
 ```
-function gtrs()
+function gtrss()
 {
   env gtrs $1;
   gtrg $1;
 }
 ```
-Then when you type `gtrs something`, you can first see the translation, and then can hear the pronunciation of the words.
+Then when you type `gtrss something`, you can first see the translation, and then can hear the pronunciation of the words.
 
 # That's all, enjoy learning english~~
