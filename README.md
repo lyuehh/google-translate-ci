@@ -13,6 +13,7 @@ changelog
 =========
 
 * 0.0.8 add cache for audio files, in ~/.gwords, as mp3 format
+* 0.1.0 add User-Agent and Referer for request
 
 usage
 ====
