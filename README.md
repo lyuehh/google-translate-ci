@@ -14,6 +14,7 @@ changelog
 
 * 0.0.8 add cache for audio files, in ~/.gwords, as mp3 format
 * 0.1.0 add User-Agent and Referer for request
+* 0.4.0 remove gtrg, fix gtrs
 
 usage
 ====
@@ -62,30 +63,3 @@ course: 课程,过程,进程,历程,期间,程序
 procedural: 程序
 programmed: 程序
 ```
-
-### gtrg
-`gtrg` download the audio files from google, and save it to `/tmp/a`, and then speak it out.
-To use it, type:
-```
-$ gtrg word
-```
-
-### say
-Mac os X also has a tool called `say`, you can use it just like this:
-```
-$ say word
-```
-but this is not real voice, it was mixed by computer, but if you don't like the tools above, then you can use this instead.
-
-### better use
-Add this to your `.bashrc` or `.zshrc` file:
-```
-function gtrss()
-{
-  env gtrs $1;
-  gtrg $1;
-}
-```
-Then when you type `gtrss something`, you can first see the translation, and then can hear the pronunciation of the words.
-
-# That's all, enjoy learning english~~
