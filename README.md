@@ -14,7 +14,7 @@ changelog
 
 * 0.0.8 add cache for audio files, in ~/.gwords, as mp3 format
 * 0.1.0 add User-Agent and Referer for request
-* 0.4.0 remove gtrg, fix gtrs
+* 0.5.0 remove gtrg, fix gtrs
 
 usage
 ====
